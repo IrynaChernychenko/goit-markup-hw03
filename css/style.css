@@ -132,6 +132,7 @@ img {
   padding: 188px 472px;
   margin-bottom: 120px;
 }
+
 .hero-title {
   color: #ffffff;
   text-align: center;
@@ -141,6 +142,10 @@ img {
   letter-spacing: 0.02em;
   margin-bottom: 48px;
   max-width: 496px;
+}
+.main-btn {
+  display: flex;
+  justify-content: center;
 }
 .hero-btn-main {
   background-color: #4d5ae5;
@@ -215,13 +220,14 @@ img {
 }
 .adventages-items {
   width: calc((100% - 72px) / 4);
+  text-align: left;
 }
 .adventages-subtitle {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: left;
+
   color: var(--logo-accent-color);
   margin-bottom: 8px;
 }
@@ -229,7 +235,6 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
 }
 .product {
   padding-bottom: 120px;
@@ -293,6 +298,7 @@ img {
 }
 .ourteam-name {
   padding: 32px 0;
+  text-align: center;
 }
 .footer {
   background-color: #2e2f42;
@@ -329,6 +335,10 @@ img {
   padding-top: 96px;
   padding-bottom: 120px;
 }
+.port-button {
+  display: flex;
+  justify-content: center;
+}
 .port-btn {
   display: flex;
   justify-content: center;
@@ -340,7 +350,6 @@ img {
 
 .port-apps {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
 }
 .img-port-all {
