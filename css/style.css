@@ -354,7 +354,11 @@ img {
   flex-wrap: wrap;
   row-gap: 48px;
   gap: 24px;
-  margin-bottom: 48px;
+}
+.port-app-one {
+  padding: 16px 32px;
+
+  border: 1px solid #e7e9fc;
 }
 .img-port-all {
   display: flex;
