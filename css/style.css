@@ -204,9 +204,10 @@ img {
   padding: 0;
   white-space: nowrap;
   clip-path: inset(100%);
-  clip: rect(0 0 0);
+  clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .conteiner-adv {
   margin-bottom: 120px;
 }
@@ -321,6 +322,8 @@ img {
 .port-app-one {
   padding: 16px 32px;
   border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 .img-port-all {
   display: flex;
