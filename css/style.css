@@ -109,6 +109,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: #2e2f42;
 }
 .header-menu {
   display: flex;
@@ -265,6 +266,7 @@ img {
 }
 .conteiner-ourteam {
   display: flex;
+  width: calc((100% - 72px) / 4);
   gap: 24px;
 }
 .ourteam-img {
