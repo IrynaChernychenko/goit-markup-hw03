@@ -236,30 +236,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.product {
-  padding-bottom: 120px;
-  padding-top: 120px;
-}
-.conteiner-product {
-  display: flex;
-  gap: 24px;
-  margin-bottom: 120px;
-}
-.product-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--logo-accent-color);
-  text-align: center;
-  margin-bottom: 72px;
-  margin-top: 120px;
-}
-.product-img {
-  background-color: #ffffff;
-  border-radius: 0px 0px 4px 4px;
-}
+
 .ourteam {
   background-color: #f4f4fd;
   padding: 120px 0;
