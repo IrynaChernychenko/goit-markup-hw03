@@ -106,6 +106,9 @@ img {
 .hero {
   padding-top: 188px;
   padding-bottom: 188px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .header-menu {
   display: flex;
@@ -128,7 +131,6 @@ img {
   max-width: 1440px;
   height: 600px;
   background-color: #2e2f42;
-  text-align: center;
   padding: 188px 472px;
   margin-bottom: 120px;
 }
@@ -142,10 +144,6 @@ img {
   letter-spacing: 0.02em;
   margin-bottom: 48px;
   max-width: 496px;
-}
-.main-btn {
-  display: flex;
-  justify-content: center;
 }
 .hero-btn-main {
   background-color: #4d5ae5;
@@ -161,6 +159,7 @@ img {
   width: 169px;
   border-radius: 4px;
   display: block;
+  margin: 0 auto;
   min-width: 169px;
 }
 .hero-btn {
@@ -351,6 +350,9 @@ img {
 .port-apps {
   display: flex;
   flex-wrap: wrap;
+  row-gap: 48px;
+  gap: 24px;
+  margin-bottom: 48px;
 }
 .img-port-all {
   display: flex;
