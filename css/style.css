@@ -31,8 +31,7 @@ img {
   display: block;
 }
 .container {
-  width: 100%;
-  max-width: 1158px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -47,11 +46,10 @@ img {
   color: var(--logo-color);
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  margin-right: 76px;
 }
 
 .link {
@@ -71,7 +69,7 @@ img {
 .header-socials-link {
   color: var(--color-main-text);
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -86,6 +84,7 @@ img {
 }
 .cont-head {
   display: flex;
+  justify-content: space-between;
 }
 .header-conteiner {
   display: flex;
@@ -128,12 +127,7 @@ img {
   color: #404bbf;
 }
 .conteiner-hero {
-  width: 100;
-  max-width: 1440px;
-  height: 600px;
   background-color: #2e2f42;
-  padding: 188px 472px;
-  margin-bottom: 120px;
 }
 
 .hero-title {
@@ -143,8 +137,9 @@ img {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  margin-bottom: 48px;
   max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 .hero-btn-main {
   background-color: #4d5ae5;
@@ -156,12 +151,11 @@ img {
   letter-spacing: 0.04em;
   border: none;
   cursor: pointer;
-  height: 56px;
-  width: 169px;
   border-radius: 4px;
   display: block;
   margin: 0 auto;
   min-width: 169px;
+  padding: 16px 32px;
 }
 .hero-btn {
   background-color: var(--footer-color);
@@ -208,9 +202,6 @@ img {
   overflow: hidden;
 }
 
-.conteiner-adv {
-  margin-bottom: 120px;
-}
 .adventages {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -271,7 +262,6 @@ img {
 
 .picture-ourteam {
   background-color: #ffffff;
-  margin-bottom: 120px;
   border-radius: 0px 0px 4px 4px;
   width: calc((100% - 72px) / 4);
 }
@@ -283,6 +273,7 @@ img {
   background-color: #2e2f42;
   color: var(--footer-color);
   padding: 100px 0;
+  text-align: left;
 }
 .footer-logo {
   color: var(--logo-color);
@@ -298,17 +289,12 @@ img {
 .logo-accent-footer {
   color: var(--footer-color);
 }
-.conteiner-footer {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  text-align: left;
-}
+
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   width: 264px;
-  margin-top: 8px;
 }
 .portfolio {
   padding-top: 120px;
@@ -328,14 +314,8 @@ img {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
 }
 
-.port-title {
-  margin-bottom: 72px;
-  text-align: center;
-}
 .port-subtitle {
   font-weight: 500;
   font-size: 20px;
